@@ -1,0 +1,21 @@
+.block{
+    padding: 10px;
+}
+.messagesbilder{
+    width: 100%;
+    background-color: rgba(53, 0, 16, 0.034);
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 50px;
+}
+.messagesbilder textarea{
+    background-color: rgba(250, 235, 215, 0.63);
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+.messagesbilder button{
+    background-color: rgba(250, 235, 215, 0.63);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}

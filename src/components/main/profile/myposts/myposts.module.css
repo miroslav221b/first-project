@@ -1,0 +1,9 @@
+.block{
+    background-color: #ede6b9;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: left;
+}

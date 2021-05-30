@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Header from './components/head/head.js';
+import Nawigation from './components/nav/nav';
+import Profile from './components/main/profile/mainc';
+import Futer from './components/futer/futer';
+import Dialogs from './components/main/dialogs/dialogsm';
+import {  Route } from 'react-router-dom';
+import Music from './components/main/music/music';
+import Setings from './components/main/setings/setings';
+import UsersContainer from './components/main/news/userscontainer';
+import Profilecontainer from './components/main/profile/profileContainer';
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="app"> 
+        <Header />
+        <Nawigation />
+        <div className="main">
+          <Route path="/profile" render={()=><Profilecontainer />}/>
+          <Route path="/message" render={()=><Dialogs/>} />
+          <Route path="/users" render={()=><UsersContainer/>} />
+          <Route path="/music" render={()=><Music/>} />
+          <Route path="/setings" render={()=><Setings/>} />
+        </div>
+        <Futer />
+      </div>
   );
 }
 

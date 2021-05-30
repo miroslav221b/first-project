@@ -1,0 +1,35 @@
+.block{
+    background-color: #ede6b9;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 8fr 3fr;
+    grid-template-areas:
+    "t . ."
+    "text text text"
+    ".   remuve add";
+    padding: 10px;
+}
+.header{
+    grid-area: t;
+}
+.texta{
+    border-radius: 3px ;
+    background-color: rgba(179, 148, 101, 0.103);
+    grid-area: text;
+    font-size: 20px;
+}
+.btn{
+    font-size: 15px;
+    background-color: rgba(179, 148, 101, 0.103);
+    border-radius: 3px;
+    border:1px solid rgba(0, 0, 0, 0.205);
+    text-align: center;
+}
+.btnSubmit{
+    grid-area: add;
+}
+ .btnDelete{
+    grid-area:remuve;
+} 

@@ -1,0 +1,41 @@
+.block{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(56, 0, 19, 0.062);
+    display: grid;
+    grid-template-areas: 
+    "foto nick subb" 
+    "foto status subb"
+    "foto . subb";
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 50px 25px 25px;
+}
+.img{
+    background-color: rgba(0, 0, 0, 0.103);
+    grid-area:foto;
+    overflow: hidden;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    width: 100%;
+    height:auto;
+}
+.nickname{
+    grid-area:nick ;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.status{
+    grid-area:status ;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+}
+.fbotton{
+    grid-area:subb ;
+    background-color: rgba(255, 228, 196, 0.295);
+    border-color: rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+}

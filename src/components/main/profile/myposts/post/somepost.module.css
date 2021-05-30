@@ -1,0 +1,42 @@
+.post{
+    background-color: rgba(179, 148, 101,0.1);
+    display: grid;
+    grid-template-columns: 60px 15fr  1fr;
+    grid-template-rows: 3fr 40px;
+    grid-template-areas:
+     "ava   post  . "
+     ".     post likes";
+    margin: 5px;
+    padding: 10px;
+    min-height: 20px;
+    border-radius: 5px;
+}
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: ava;
+    margin-right: 10px;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.massage{
+    font-size: 20px;
+    color: wheat;
+    grid-area: post;
+}
+.like{
+    grid-area: likes;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    background-color: rgba(106, 165, 104, 0.158);
+    border-radius: 5px;
+}

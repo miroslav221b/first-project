@@ -1,0 +1,14 @@
+.contact{
+    margin: 10px 5px;
+    font-size: 20px;
+    background-color: rgba(65, 0, 0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+.contactactive {
+    font-size: 30px;
+}
+.contact a{
+    color:rgb(65, 0, 0);
+}

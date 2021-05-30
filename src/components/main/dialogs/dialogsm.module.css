@@ -1,0 +1,16 @@
+.block{
+    background-color:#ede6b9;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "contacts chat" ;
+}
+.chat{
+    grid-area: chat;
+}
+.allcontacts{
+    grid-area: contacts;
+}

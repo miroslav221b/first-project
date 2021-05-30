@@ -1,0 +1,23 @@
+.block{
+    background-color:#ede6b9 ;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.item{
+    font-size: 25px;
+    color: rgb(34, 0, 25);
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+a.active{
+    color: #f7f1eb;
+    background-color:#b9925e ;
+}
+a {
+    text-decoration: none;
+   }

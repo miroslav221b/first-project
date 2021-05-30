@@ -1,0 +1,15 @@
+.block{
+    background-color:#829079;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    justify-self: start;
+    font-size: 30px;
+    background-color: #95a38c;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,24 @@
+.message{
+    background-color: rgba(116, 0, 48, 0.048);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.textmessage{
+    padding: 3px;
+    font-size: 15px;
+}
+.avamessage{
+    background-color: rgba(165, 42, 42, 0.295);
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
